@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import io.appium.java_client.android.AndroidDriver;
 
-public class SeleniumTestNGSimpleSearchTest {
+public class AppiumTestNGSimpleSearchTest {
 	public static final String USERNAME = "YOUR_USERNAME";
 	public static final String ACCESS_KEY = "YOUR_ACCESS_KEY";
 	public static final String URL = "https://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:443/wd/hub";

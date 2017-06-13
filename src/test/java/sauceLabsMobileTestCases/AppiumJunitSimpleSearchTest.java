@@ -3,15 +3,15 @@ package sauceLabsMobileTestCases;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
 import io.appium.java_client.android.AndroidDriver;
 
-public class SeleniumJunitSimpleSearchTest {
+public class AppiumJunitSimpleSearchTest {
 	public static final String USERNAME = "YOUR_USERNAME";
 	public static final String ACCESS_KEY = "YOUR_ACCESS_KEY";
 	public static final String URL = "https://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:443/wd/hub";
