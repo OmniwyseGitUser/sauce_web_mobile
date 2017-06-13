@@ -1,4 +1,4 @@
-package SauceLabsWebTestCases;
+package sauceLabsWebTestCases;
 
 import java.net.URL;
 
